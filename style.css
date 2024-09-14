@@ -1,0 +1,157 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Header styling */
+h1 {
+  background-color: #542e71;
+  color: #f0f8ff; /* Use hex code for consistency */
+  height: 5rem;
+  line-height: 5rem;
+  margin-bottom: 2rem; /* Add some space below the header */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+/* Choice button styling */
+.choice {
+  height: 165px;
+  width: 165px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column; /* Add this line */
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+  background: linear-gradient(
+    145deg,
+    #e6e6e6,
+    #ffffff
+  ); /* Add gradient background */
+}
+
+.choice:hover {
+  cursor: pointer;
+  background-color: #a52a2a; /* Use hex code for consistency */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Image styling */
+img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+/* Choices container styling */
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 5rem;
+}
+
+/* Scoreboard styling */
+.score-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin-top: 3rem;
+  gap: 5rem;
+}
+
+#user-score,
+#machine-score {
+  font-size: 4rem;
+  color: #542e71; /* Add color */
+}
+
+/* Message container styling */
+.message-container {
+  margin-top: 5rem;
+}
+
+#msg {
+  background-color: #00ffff; /* Use hex code for consistency */
+  color: #a52a2a; /* Use hex code for consistency */
+  font-size: 2rem;
+  display: inline-block; /* Use inline-block for better control */
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+  transition: background-color 0.3s ease, transform 0.3s ease,
+    box-shadow 0.3s ease; /* Add transition for smooth effect */
+}
+
+#msg:hover {
+  background-color: #a52a2a; /* Change background color on hover */
+  color: #00ffff; /* Change text color on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+/* Span styling */
+span {
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+  background-color: #f0f0f0;
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+/* Reset button styling */
+.reset-container {
+  margin-top: 2rem; /* Add some space above the button */
+}
+
+#reset-button {
+  background-color: #542e71; /* Match header background color */
+  color: #f0f8ff; /* Match header text color */
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+  transition: background-color 0.3s ease, transform 0.3s ease,
+    box-shadow 0.3s ease; /* Add transition for smooth effect */
+}
+
+#reset-button:hover {
+  background-color: #a52a2a; /* Change background color on hover */
+  color: #00ffff; /* Change text color on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+/* Creative styling for h6 tag */
+h6 {
+  font-size: 1.2rem;
+  color: #542e71; /* Match the primary color */
+  background-color: #f0f8ff; /* Light background for contrast */
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+  margin-top: 1rem; /* Add some space above */
+  display: inline-block; /* Inline-block for better control */
+  transition: background-color 0.3s ease, transform 0.3s ease,
+    box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+h6:hover {
+  background-color: #a52a2a; /* Change background color on hover */
+  color: #00ffff; /* Change text color on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
