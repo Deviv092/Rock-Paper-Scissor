@@ -21,12 +21,12 @@ const showWinner = (userWin, userChoice, machineChoice) => {
   if (userWin) {
     userScore++;
     userScorePara.innerText = userScore;
-    msg.innerText = `You Won! >> Your ${userChoice} beats ${machineChoice}`;
+    msg.innerText = `You Won! >> your ${userChoice} beats ${machineChoice}`;
     msg.style.backgroundColor = "green";
   } else {
     machineScore++;
     machineScorePara.innerText = machineScore;
-    msg.innerText = `You Lost. >> ${machineChoice} beats Your ${userChoice} `;
+    msg.innerText = `You Lost. >> ${machineChoice} beats your ${userChoice} `;
     msg.style.backgroundColor = "Red";
   }
 };
